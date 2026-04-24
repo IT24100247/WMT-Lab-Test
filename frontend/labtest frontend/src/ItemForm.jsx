@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { createItem } from '../api';
+import { createItem, deleteItem } from "./api";
 
 export default function ItemForm({ onItemAdded }) {
     const [name, setName] = useState('');
